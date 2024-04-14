@@ -1,2 +1,2 @@
 # budget_allocation
-simple budhet allocation app
+simple budget allocation app
