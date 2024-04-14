@@ -28,7 +28,6 @@
         --bs-btn-disabled-border-color: #6570a5;
 }
 
-a:link, a:visited, a:hover, a:active { 
-    color: #6570a5;
+a:link, a:visited, a:hover, a:active {
     text-decoration: none; 
 }
