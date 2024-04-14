@@ -27,3 +27,8 @@
         --bs-btn-disabled-bg: #6570a5;
         --bs-btn-disabled-border-color: #6570a5;
 }
+
+a:link, a:visited, a:hover, a:active { 
+    color: #6570a5;
+    text-decoration: none; 
+}

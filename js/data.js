@@ -539,7 +539,7 @@ const items = [
                 "id":"180003",
                 "description": "Books",
                 "amount" : 0
-            },,
+            },
             {
                 "id":"180004",
                 "description": "Music",
