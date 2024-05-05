@@ -4,5 +4,6 @@ $(':input[type="number"]').change(function(){
 
 $(document).ready(function(){
     display_title_header();
+    display_forms();
     display_navigation_bar("Input_Forms");
 });

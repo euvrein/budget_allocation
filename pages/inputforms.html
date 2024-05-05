@@ -14,78 +14,15 @@
 
         <div class="container">
             <div class="container-fluid p-3">
-                <div class="shadow-lg mb-3 text-center rounded p-4">
-                    <div>
-                        <h1><span class="main-color">Budget</span><span class="secondary-color">Plan</span></h1>
-                        <p class="main-color">Plan your money wisely</p>
-                    </div>
-                </div>
-
                 
-                <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded">
-
-
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                              Income
-                            </button>
-                          </h2>
-                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <div class="form-floating mb-3">
-                                    <input type="number" step="0.01" class="form-control" placeholder="0.00">
-                                    <label for="floatingInput">Salary</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input type="number" step="0.01" class="form-control" placeholder="0.00">
-                                    <label for="floatingInput">Partner's Salary</label>
-                                </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne">
-                                Income
-                              </button>
-                            </h2>
-                            <div id="collapseOne2" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                <div class="row">
-                                <div class="col-6">
-                                    <div class="form-floating mb-3">
-                                        <input type="number" step="0.01" class="form-control" placeholder="0.00">
-                                        <label for="floatingInput">Salary</label>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <select class="form-floating form-select" aria-label="Default select example">
-                                        <option selected disabled>Open this select menu</option>
-                                        <option value="1">Weekly</option>
-                                        <option value="2">Forthnightly</option>
-                                        <option value="3">Monthly</option>
-                                      </select>
-                                </div>
-                                  
-
-                                </div>
-                                  <div class="form-floating mb-3">
-                                      <input type="number" step="0.01" class="form-control" placeholder="0.00">
-                                      <label for="floatingInput">Partner's Salary</label>
-                                  </div>
-                              </div>
-                            </div>
-                          </div>
-
-                        
-                      </div>
-                </div>
+            <!-- TITLE HEADER -->
+            <div id="title_header_div" class='shadow-lg mb-3 p-3 text-center rounded'></div>
+            
+            <!-- FORMS -->
+            <div id="forms_div"></div>
                 
-                <!-- NAVIGATION BAR -->
-                <div id="navigation_bar"></div>
+              <!-- NAVIGATION BAR -->
+              <div id="navigation_bar"></div>
         </div>
 
     <script src="../js/bootstrap.bundle.min.js"></script>
@@ -93,8 +30,11 @@
     <!-- MAIN MODULE -->
     <script src="../js/input_forms.js"></script>
     <script src="../js/data.js"></script>
+    <script src="../js/default_data.js"></script>
+
     <!--Modules-->
     <script src="../js/modules/title-header.js"></script>
+    <script src="../js/modules/input-forms.js"></script>
     <script src="../js/modules/navbar.js"></script>
     </body>
 </html>
