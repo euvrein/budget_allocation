@@ -1,24 +1,49 @@
-function add_categories_total(){
+function update_categories_daily_total(){
     let category = read_data();
 
-    let recurrence_description = "";
-    let recurrence_value = "";
-
-    for (i = 0; i < category.length; i++) {
-        category[i].total = 0;
-        for (i2 = 0; i2 < category[i].subcategory.length; i2++) {
-            recurrence_description = category[i].subcategory[i2].recurrence;
-            find_recurrence_value = recurrences.filter( x => x.name === recurrence_description);
-            recurrence_value = find_recurrence_value[0]?.number_of_days;
-
-            if (category[i].subcategory[i2].amount != 0){
-                category[i].total = category[i].total + (category[i].subcategory[i2].amount / recurrence_value);
-            }
-        }
+    for (let i = 0; i < category.length; i++) {
+        category[i].daily_total = add_subcategories_total(category[i]);
     }
 
     update_data(category);
 }
+
+
+function add_subcategories_total(category){
+    let subcategory_total = 0;
+
+    for (let i = 0; i < category.subcategory.length; i++) {
+        subcategory_total += category.subcategory[i].daily_amount;
+    }
+
+    return subcategory_total;
+}
+
+
+function calculate_daily_amount(recurrence, recurrence_amount){
+    var daily_amount = 0;
+    for (let i = 0; i < recurrences.length; i++) {
+        if (recurrences[i].name === recurrence){
+            daily_amount = recurrence_amount / recurrences[i].number_of_days;
+        }
+    }
+    
+    return daily_amount;
+}
+
+
+function calculate_recurrence(recurrence, daily_total){
+    var recurrence_total_amount = 0;
+    
+    for (let i = 0; i < recurrences.length; i++) {
+        if (recurrences[i].name === recurrence){
+            recurrence_total_amount = daily_total * recurrences[i].number_of_days;
+        }
+    }
+    
+    return recurrence_total_amount;
+}
+
 
 function check_data(){
     if (localStorage.getItem("saved_data") === null){
@@ -28,6 +53,7 @@ function check_data(){
     }
 }
 
+
 function set_default_data(){
     let category = default_data;
 
@@ -35,21 +61,31 @@ function set_default_data(){
     localStorage.setItem("saved_data", temporary_data);
 } 
 
-function compute_grand_total(){
+
+function calculate_grand_total(){
     let category = read_data();
+    let grand_total = 0;
     let income = 0;
     let expenses = 0;
 
-    for (i = 0; i < category.length; i++) {
-        if (category[i1].name == "Income"){
-            income += category[i];
+    for (let i = 0; i < category.length; i++) {
+        if (category[i].name == "Income"){
+            income += category[i].daily_total;
+        } else {
+            expenses += category[i].daily_total;
         }
     }
+
+    grand_total = income - expenses;
+    
+    return grand_total;
 }
+
 
 function create_data(){
-
+    
 }
+
 
 function read_data(){    
     let saved_data = localStorage.getItem("saved_data");
@@ -57,14 +93,12 @@ function read_data(){
     return saved_data;
 }
 
+
 function update_data(data_parameter){
     let temporary_data = JSON.stringify(data_parameter);
     localStorage.setItem("saved_data", temporary_data);
 }
 
-function delete_data(){
-    
-}
 
 function delete_all_data(){
     localStorage.clear();

@@ -11,6 +11,10 @@
     color:#6db18b;
 }
 
+.tertiary-color{
+    color: #803131;
+}
+
 .btn-custom-main {
         --bs-btn-color: #fff;
         --bs-btn-bg: #6570a5;
