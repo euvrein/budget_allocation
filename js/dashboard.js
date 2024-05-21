@@ -21,6 +21,9 @@ $(document).ready(function(){
     }
 
     $('#recurrence_selector').change(function() {
+        clear_display_summary_description(); 
+        display_summary_description();
+
         clear_display_summary_breakdown();        
         display_summary_breakdown();
     });

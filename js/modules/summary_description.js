@@ -27,6 +27,11 @@ function display_summary_description() {
 }
 
 
+function clear_display_summary_description(){
+    $('#summary_description').html("");
+}
+
+
 function display_smiley(grand_total){
     if (grand_total > 0){
         $("#smiley").html(summary_description[0].smiley);
