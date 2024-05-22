@@ -40,15 +40,40 @@
                 
 
                 <!-- SETTINGS DIV -->
-                <div id="settings_div" class='shadow-lg mb-3 p-3 text-center rounded'></div>
+                <div id="settings_div" class='shadow-lg mb-3 p-3 text-center rounded'>
+                    <div class='row'>
+                        <div class="text-center">
+                            <img class="logo m-3" src="../img/logo.png" style="max-width: 100px;" />
+                        </div>
+                        <p>Thank you for using BudgetPlan. Your personal finance application designed to simplify budgeting and help you reflect your finances.</p>
+                        <p>Remember to set personalized budgets for different categories and stay on track with your budget limits.</p>
+                    </div>
+                </div>
                 
+
                 <!-- RESET SETTINGS-->
                 <div id="" class='shadow-lg mb-3 p-3 text-center rounded'>
                     <h3>Clear Data</h3>
-                    <p>Type <strong>cleardata</strong> on the textbox if you want to clear all inputed data. Then, Click the button.</p>
-                    <div class="input-group mb-3">
-                        <input id="clear_data_textbox" type="text" class="form-control" aria-describedby="button-addon2">
-                        <button id="clear_data_button" class="btn btn-outline-danger" type="button" onclick="clear_data()" disabled>Clear Data</button>
+                    <p>Click the button below to clear all data</p>
+                    <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Clear Data
+                    </button>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Clear Data</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <h6>What do you want to do?</h6>
+                            <button class="btn btn-outline-danger" type="button" onclick="clear_data()">Clear Data</button>
+                            <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Keep Data</button>
+                        </div>
+                    </div>
                     </div>
                 </div>
 
