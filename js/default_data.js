@@ -95,31 +95,17 @@ var default_data = [
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
+            },
+            {
+                "id":"110011",
+                "description": "Allowance",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
             },    
             {
                 "id":"110005",
                 "description": "Bonus",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"110006",
-                "description": "Investment Income",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"110007",
-                "description": "Government Benefits",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"110008",
-                "description": "Family Benefit payments",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -132,15 +118,29 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"110010",
-                "description": "Savings Income",
+                "id":"110008",
+                "description": "Family Benefit payments",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
             },
             {
-                "id":"110011",
-                "description": "Allowance",
+                "id":"110007",
+                "description": "Government Benefits",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"110006",
+                "description": "Investment Income",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"110010",
+                "description": "Savings Income",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -162,15 +162,15 @@ var default_data = [
         "daily_total" : 0,
         "subcategory" : [
             {
-                "id":"120001",
-                "description": "Mortgage",
+                "id":"120005",
+                "description": "Appliances",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
             },
             {
-                "id":"120002",
-                "description": "Rent",
+                "id":"120011",
+                "description": "Cable TV",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -190,64 +190,8 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"120005",
-                "description": "Appliances",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"120006",
-                "description": "Renovations",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
                 "id":"120007",
                 "description": "Electricity",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"120008",
-                "description": "Gas",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"120009",
-                "description": "Water",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"120010",
-                "description": "Internet",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"120011",
-                "description": "Cable TV",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"120012",
-                "description": "Home Phone",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"120013",
-                "description": "Mobile Phone",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -260,8 +204,15 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"120015",
-                "description": "House Gardening",
+                "id":"120008",
+                "description": "Gas",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"120012",
+                "description": "Home Phone",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -273,10 +224,51 @@ var default_data = [
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
             },
-
+            {
+                "id":"120015",
+                "description": "House Gardening",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
             {
                 "id":"120017",
                 "description": "House Maintenance",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"120010",
+                "description": "Internet",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"120013",
+                "description": "Mobile Phone",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"120001",
+                "description": "Mortgage",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"120006",
+                "description": "Renovations",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"120002",
+                "description": "Rent",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -298,36 +290,8 @@ var default_data = [
         "daily_total" : 0,
         "subcategory" : [
             {
-                "id":"130001",
-                "description": "Home Insurance",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"130002",
-                "description": "Health Insurance",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"130003",
-                "description": "Personal Insurance",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"130004",
-                "description": "Life Insurance",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"130007",
-                "description": "Personal Loan",
+                "id":"130012",
+                "description": "Charity Donations",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -340,8 +304,22 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"130009",
-                "description": "Superannuation Contributions",
+                "id":"130014",
+                "description": "Debts",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"130002",
+                "description": "Health Insurance",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"130001",
+                "description": "Home Insurance",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -354,6 +332,27 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
+                "id":"130004",
+                "description": "Life Insurance",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"130003",
+                "description": "Personal Insurance",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"130007",
+                "description": "Personal Loan",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
                 "id":"130011",
                 "description": "Savings",
                 "daily_amount" : 0.00,
@@ -361,22 +360,8 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"130012",
-                "description": "Charity Donations",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"130013",
-                "description": "Church Donations",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"130014",
-                "description": "Debts",
+                "id":"130009",
+                "description": "Superannuation Contributions",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -396,21 +381,14 @@ var default_data = [
         "description": "Transportation",
         "icon": "<i class='fa-solid fa-taxi'></i>",
         "daily_total" : 0,
-        "subcategory" : [
+        "subcategory" : [    
             {
-                "id":"140001",
-                "description": "Public Transporation",
+                "id":"140013",
+                "description": "AirFare",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
-            },
-            {
-                "id":"140002",
-                "description": "Petrol",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
+            },        
             {
                 "id":"140004",
                 "description": "Car Insurance",
@@ -426,43 +404,8 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"140006",
-                "description": "Vehicle Registration",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
                 "id":"140007",
                 "description": "Driver's License",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"140008",
-                "description": "Parking Fee",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"140009",
-                "description": "Vehicle Maintenance",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"140010",
-                "description": "Vehicle Repairs",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"140011",
-                "description": "Road Tolls",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -475,8 +418,50 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"140013",
-                "description": "AirFare",
+                "id":"140008",
+                "description": "Parking Fee",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"140002",
+                "description": "Petrol",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"140001",
+                "description": "Public Transporation",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"140011",
+                "description": "Road Tolls",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"140009",
+                "description": "Vehicle Maintenance",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"140006",
+                "description": "Vehicle Registration",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"140010",
+                "description": "Vehicle Repairs",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -498,8 +483,8 @@ var default_data = [
         "daily_total" : 0,
         "subcategory" : [
             {
-                "id":"150001",
-                "description": "Super Market",
+                "id":"150011",
+                "description": "Bakery",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -507,6 +492,27 @@ var default_data = [
             {
                 "id":"150002",
                 "description": "Butcher",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"150007",
+                "description": "Canned Goods",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"150013",
+                "description": "Cleaning Materials",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"150010",
+                "description": "Dairy Products",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -526,34 +532,6 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"150005",
-                "description": "Vegetables",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"150006",
-                "description": "Butcher",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"150007",
-                "description": "Canned Goods",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"150008",
-                "description": "Snack",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
                 "id":"150009",
                 "description": "Juices",
                 "daily_amount" : 0.00,
@@ -561,15 +539,15 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"150010",
-                "description": "Dairy Products",
+                "id":"150008",
+                "description": "Snacks",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
             },
             {
-                "id":"150011",
-                "description": "Bakery",
+                "id":"150001",
+                "description": "Super Market",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -582,8 +560,8 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"150013",
-                "description": "Cleaning Materials",
+                "id":"150005",
+                "description": "Vegetables",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -626,13 +604,6 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"160004",
-                "description": "Toys",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
                 "id":"160005",
                 "description": "Children's Clothes",
                 "daily_amount" : 0.00,
@@ -640,15 +611,8 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"160006",
-                "description": "Sports and Activities",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"160007",
-                "description": "School Fees",
+                "id":"160011",
+                "description": "Child Support Payment",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -661,8 +625,8 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"160009",
-                "description": "School Uniforms",
+                "id":"160007",
+                "description": "School Fees",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -675,8 +639,22 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"160011",
-                "description": "Child Support Payment",
+                "id":"160009",
+                "description": "School Uniforms",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"160006",
+                "description": "Sports and Activities",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"160004",
+                "description": "Toys",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -698,15 +676,15 @@ var default_data = [
         "daily_total" : 0,
         "subcategory" : [
             {
-                "id":"170001",
-                "description": "Medicines",
+                "id":"170006",
+                "description": "Computer",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
             },
             {
-                "id":"170002",
-                "description": "Eye Care",
+                "id":"170008",
+                "description": "Cosmetics",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -719,13 +697,6 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"170004",
-                "description": "Medical Fees",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
                 "id":"170005",
                 "description": "Education",
                 "daily_amount" : 0.00,
@@ -733,8 +704,8 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"170006",
-                "description": "Computer",
+                "id":"170002",
+                "description": "Eye Care",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -747,8 +718,15 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"170008",
-                "description": "Cosmetics",
+                "id":"170004",
+                "description": "Medical Fees",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"170001",
+                "description": "Medicines",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -770,15 +748,8 @@ var default_data = [
         "daily_total" : 0,
         "subcategory" : [
             {
-                "id":"180001",
-                "description": "Newspaper",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"180002",
-                "description": "Magazines",
+                "id":"180011",
+                "description": "Bars or Clubs",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -791,8 +762,8 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"180004",
-                "description": "Music",
+                "id":"180006",
+                "description": "Coffee and Tea",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -805,22 +776,8 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"180006",
-                "description": "Coffee and Tea",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"180007",
-                "description": "Take-away foods",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"180008",
-                "description": "Restaurants",
+                "id":"180002",
+                "description": "Magazines",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -833,15 +790,29 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"180010",
-                "description": "Concerts",
+                "id":"180004",
+                "description": "Music",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
             },
             {
-                "id":"180011",
-                "description": "Bars or Clubs",
+                "id":"180001",
+                "description": "Newspaper",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"180008",
+                "description": "Restaurants",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"180007",
+                "description": "Take-away foods",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -863,8 +834,8 @@ var default_data = [
         "daily_total" : 0,
         "subcategory" : [
             {
-                "id":"190001",
-                "description": "Hobbies",
+                "id":"190004",
+                "description": "Accessories",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -877,15 +848,15 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"190003",
-                "description": "Jewelry",
+                "id":"190008",
+                "description": "Club Membership",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
             },
             {
-                "id":"190004",
-                "description": "Accessories",
+                "id":"190014",
+                "description": "Fines",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -898,27 +869,6 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"190006",
-                "description": "Clothing",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"190007",
-                "description": "Shoes",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
-                "id":"190008",
-                "description": "Club Membership",
-                "daily_amount" : 0.00,
-                "recurrence_amount" : 0.00,
-                "recurrence": "Daily"
-            },
-            {
                 "id":"190009",
                 "description": "Gym Memberships",
                 "daily_amount" : 0.00,
@@ -926,8 +876,22 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
+                "id":"190001",
+                "description": "Hobbies",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
                 "id":"190010",
                 "description": "Holidays",
+                "daily_amount" : 0.00,
+                "recurrence_amount" : 0.00,
+                "recurrence": "Daily"
+            },
+            {
+                "id":"190003",
+                "description": "Jewelry",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
@@ -947,15 +911,15 @@ var default_data = [
                 "recurrence": "Daily"
             },
             {
-                "id":"190013",
-                "description": "Veterinarian",
+                "id":"190007",
+                "description": "Shoes",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
             },
             {
-                "id":"190014",
-                "description": "Fines",
+                "id":"190013",
+                "description": "Veterinarian",
                 "daily_amount" : 0.00,
                 "recurrence_amount" : 0.00,
                 "recurrence": "Daily"
