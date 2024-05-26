@@ -25,17 +25,20 @@ const recurrences = [
     {
         "id": "300",
         "name": "Monthly",
-        "number_of_days": 30.4375
+        "number_of_days": 30
+        // "number_of_days": 30.4375
     },
     {
         "id": "900",
         "name": "Quarterly",
-        "number_of_days": 91.3125
+        "number_of_days": 90
+        // "number_of_days": 91.3125
     },
     {
         "id": "365",
         "name": "Annually",
-        "number_of_days": 365.25
+        "number_of_days": 365
+        // "number_of_days": 365.25
     }
 ];
 
